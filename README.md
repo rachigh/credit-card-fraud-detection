@@ -24,8 +24,9 @@ This project implements a complete fraud detection system with:
 
 ### Option 1: Google Colab (Recommended)
 1. Open any notebook in Google Colab
-2. Upload your `creditcard.csv` dataset
-3. Run all cells sequentially
+2. Download dataset from Kaggle
+3. Upload your `creditcard.csv` dataset
+4. Run all cells sequentially
 
 
 ### Option 2: Local Setup
