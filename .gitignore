@@ -1,0 +1,223 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+fraud_env/
+
+# Data files (too large for git)
+*.csv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+data/external/
+
+# Model files (can be large)
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.pb
+models/*.onnx
+*.model
+
+
+
+# Logs
+logs/
+*.log
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Flask session files
+flask_session/
+
+# ngrok configuration
+ngrok.yml
+.ngrok2/
+
+# API keys and secrets
+.env.local
+.env.production
+config.ini
+secrets.json
+api_keys.txt
+
+# Docker
+.dockerignore
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+logs/
+tensorboard_logs/
+
+# Optuna
+optuna_studies/
+
+# Large visualization files
+*.html
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+plots/
+figures/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config/production.py
+config/secrets.py
+
+# Test artifacts
+test_results/
+test_outputs/
+coverage_reports/
+
+# Streamlit
+.streamlit/
+
+# Matplotlib cache
+.matplotlib/
+
+# Seaborn cache
+.seaborn-data/
+
+# Experiment tracking
+experiments/
+results/
+outputs/
+
+# Virtual environment directories
+.python-version
+.conda/
+conda-meta/
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.vim/
+.vimrc
+
+# MacOS
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Local development overrides
+local_config.py
+dev_config.py
+
+# Performance profiling
+*.prof
+*.profile
